@@ -92,7 +92,7 @@ export default function App() {
           </div>
          {/* --- BOTÓN DE KO-FI AJUSTADO A MEDIDA --- */}
           {/* Aquí controlas el ancho exacto cambiando el 400px por 380px, 420px, etc. */}
-          <div className="mt-8 flex flex-col items-center lg:items-start animate-pulse hover:animate-none w-full max-w-[450px]">
+          <div className="mt-8 flex flex-col items-center lg:items-start animate-pulse hover:animate-none w-full max-w-[495px]">
             <p className="text-zinc-500 text-[10px] tracking-widest mb-2 font-bold uppercase text-center lg:text-left w-full">
               ¿Te gusta la revista? Apoya el proyecto:
             </p>
