@@ -70,13 +70,15 @@ export default function App() {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-            {/* ENLACE DE DESCARGA DIRECTA */}
+            {/* ENLACE DE DESCARGA DIRECTA (Abre en pestaña nueva por ser enlace externo) */}
             <a 
               href={REVISTA_URL} 
-              download="Bitacora_Indie_01.pdf" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              download="Bitacora_Indie_02.pdf" 
               className="relative flex items-center justify-center gap-3 bg-purple-600 text-white font-black px-8 py-4 hover:bg-white hover:text-black transition-all duration-300 group overflow-hidden"
             >
-              <Download size={20} /> DESCARGAR PDF
+              <Download size={20} /> VER / DESCARGAR PDF
             </a>
             {/* ENLACE PARA LEER ONLINE */}
             <a 
