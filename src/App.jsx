@@ -64,9 +64,9 @@ export default function App() {
             NÚMERO #03 - DISPONIBLE
           </span>
           <h1 className="text-6xl md:text-8xl font-black leading-none mb-6 tracking-tighter italic">
-            REPORTAJE ESPECIAL: <span className="bg-gradient-to-r from-[#FFF3A3] via-[#F5C542] to-[#B7791F] bg-clip-text text-transparent drop-shadow-[0_0_15px_rgba(245,197,66,0.55)]">
+            REPORTAJE ESPECIAL: <span className="inline-block pr-[0.15em] bg-gradient-to-r from-[#FFF3A3] via-[#F5C542] to-[#B7791F] bg-clip-text text-transparent drop-shadow-[0_0_15px_rgba(245,197,66,0.55)]">
   THE HEART OF GOLD
-</span> 
+</span>
           </h1>
           <p className="text-zinc-400 text-sm md:text-base mb-8 max-w-xl font-mono leading-relaxed normal-case">
             Tu primer videojuego podría estar listo antes del lunes. Te enseñamos tres formas de crearlo en un fin de semana y revelamos los secretos de The Heart of Gold, una ambiciosa producción mexicana que mezcla acción, mazmorras y combates JRPG. Además: entrevistas, reseñas y muchos más juegos independientes por descubrir.
