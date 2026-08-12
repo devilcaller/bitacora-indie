@@ -17,11 +17,12 @@ export default function App() {
   // Lista de todas las ediciones disponibles
   const EDICIONES = {
     1: "https://f005.backblazeb2.com/file/bitacora-indie-hemeroteca/numero1.pdf",
-    2: "https://f005.backblazeb2.com/file/bitacora-indie-hemeroteca/numero2.pdf" // La nueva
+    2: "https://f005.backblazeb2.com/file/bitacora-indie-hemeroteca/numero2.pdf",
+    3: "https://f005.backblazeb2.com/file/bitacora-indie-hemeroteca/numero3.pdf" // ¡La nueva!
   };
 
   // Definimos cuál es la más reciente para el Hero
-  const ULTIMA_EDICION = 2;
+  const ULTIMA_EDICION = 3;
   const REVISTA_URL = EDICIONES[ULTIMA_EDICION];
 
   const socialLinks = {
@@ -60,13 +61,16 @@ export default function App() {
       <section id="inicio" className="relative pt-40 pb-20 px-6 md:px-12 max-w-7xl mx-auto flex flex-col lg:flex-row gap-12 items-center overflow-hidden">
         <div className="lg:w-1/2 text-center lg:text-left z-10">
           <span className="inline-block bg-purple-600 text-white px-3 py-1 text-[10px] font-black tracking-[0.2em] mb-4 italic">
-            NÚMERO #02 - DISPONIBLE
+            NÚMERO #03 - DISPONIBLE
           </span>
           <h1 className="text-6xl md:text-8xl font-black leading-none mb-6 tracking-tighter italic">
-            REPORTAJE ESPECIAL: <span className="text-purple-500 drop-shadow-[0_0_15px_rgba(168,85,247,0.6)]">NECROWAVE</span> 
+            REPORTAJE ESPECIAL: <span className="bg-gradient-to-r from-[#FFF3A3] via-[#F5C542] to-[#B7791F] bg-clip-text text-transparent drop-shadow-[0_0_15px_rgba(245,197,66,0.55)]">
+  THE HEART OF GOLD
+</span> 
           </h1>
           <p className="text-zinc-400 text-sm md:text-base mb-8 max-w-xl font-mono leading-relaxed normal-case">
-            ¿MÉXICO HACE MALOS JUEGOS? la respuesta no es la que te esperas. Te enseñamos a desbloquear al jefe secreto de MOSTROSCOPY. Entrevistamos a mas desarrolladores y los obligamos a chambear
+            Tu primer videojuego podría estar listo antes del lunes. Te enseñamos tres formas de crearlo en un fin de semana y revelamos los secretos de The Heart of Gold, una ambiciosa producción mexicana que mezcla acción, mazmorras y combates JRPG. Además: entrevistas, reseñas y muchos más juegos independientes por descubrir.
+
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
@@ -92,7 +96,7 @@ export default function App() {
           </div>
          {/* --- BOTÓN DE KO-FI AJUSTADO A MEDIDA --- */}
           {/* Aquí controlas el ancho exacto cambiando el 400px por 380px, 420px, etc. */}
-          <div className="mt-8 flex flex-col items-center lg:items-start animate-pulse hover:animate-none w-full max-w-[495px]">
+          <div className="mt-8 flex flex-col items-center lg:items-start animate-pulse hover:animate-none w-full max-w-[500px]">
             <p className="text-zinc-500 text-[10px] tracking-widest mb-2 font-bold uppercase text-center lg:text-left w-full">
               ¿Te gusta la revista? Apoya el proyecto:
             </p>
@@ -113,12 +117,12 @@ export default function App() {
             <div className="absolute -inset-10 bg-purple-600 blur-[80px] opacity-0 group-hover:opacity-40 transition-opacity duration-700"></div>
             <div className="relative border-4 border-zinc-900 shadow-[30px_30px_60px_rgba(0,0,0,0.9)] group-hover:shadow-[0_0_40px_rgba(147,51,234,0.5)] group-hover:border-purple-500 transition-all duration-700">
               <img 
-                src="/portadas/portada_02.jpg" 
+                src="/portadas/portada_03.jpg" 
                 alt="Portada Revista" 
                 className="w-72 md:w-96 grayscale group-hover:grayscale-0 transition-all duration-1000"
               />
               <div className="absolute bottom-4 right-4 bg-black border border-purple-500 text-purple-500 px-4 py-2 font-black text-2xl group-hover:bg-purple-500 group-hover:text-black transition-colors duration-700">
-                #02
+                #03
               </div>
             </div>
           </div>
